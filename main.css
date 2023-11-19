@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+    padding-right: 400px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgba(243, 243, 243, 0.664);
+}
+
+header button {
+    margin-left: 4px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: none;
+    font-size: bold;
+    background-color: rgb(46, 248, 46);
+    border-radius: 30px;
+}
+
+header button:hover {
+    background-color: rgb(255, 64, 64);
+    cursor: pointer;
+}
+
+h2, h1, header, button, input {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box{
+    margin: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 15px 0 30px 0;
+}
+
+
+.box input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.box button {
+    background-color: rgb(46, 248, 46);
+    border: none;
+    width: 70px;
+    top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#button-cancelar {
+    background-color: red;
+    color: #fff;
+    border: none;
+    width: 70px;
+    top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+#button-cancelar:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.548);
+}
+
+.box button:hover {
+    background-color: rgba(18, 121, 18, 0.979);
+    cursor: pointer;
+}
+
+ul li {
+    margin-bottom: 7px;
+    font-family: 'Courier Prime', monospace;
+    list-style: none;
+}
+
+.destacado {
+    color: red;
+    text-decoration: line-through;
+    font-style: italic;
+}
